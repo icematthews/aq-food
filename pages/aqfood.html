@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='shortcut icon' type='image/x-icon' href='https://www.aq-capital.com/images/logo.jpg' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="aqfood.css">
+    <title>About Us | AQ Food Sdn Bhd</title>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-dark navbar-expand-md py-0" id="mainNavbar">
+    <div class="navbar-brand">
+            <a href="http://127.0.0.1:5500/aqproject/aqlandingpage.html">
+            <img src="https://www.aq-capital.com/images/logo.jpg" width="60" height="60" alt="" >
+    </a></div>
+    <div class="navbar-logo">AQ FOOD</div>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+            <li class="nav-item1"><a href="http://127.0.0.1:5500/aqproject/aqlandingpage.html" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="http://127.0.0.1:5500/aqproject/aqfood.html" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="http://127.0.0.1:5500/photoGrid.html" class="nav-link">PHOTO GALLERY</a></li>
+            <li class="nav-item"><a href="https://aq-food-sdn-bhd.myshopify.com" class="nav-link">SHOP</a></li>
+            <li class="nav-item"><a href="http://127.0.0.1:5500/aqproject/contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+    </div>
+    </nav>
+              
+                <section class="container-fluid px-0">
+                    <div class="row align-items-center content">
+                      <div class="col-md-5 order-2 order-md-1" id="firstPic">
+                        <img src="https://images.unsplash.com/photo-1538472861466-364b23ad4286?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="">
+                      </div>
+                      <div class="col-md-5 text-center order-1 order-md-2 blurb mb-5 mb-md-0" id="firstPar">
+                        <div class="row justify-content-center">
+                          <div class="col-10 col-lg-8">
+                            <h2>How It All Started</h2>
+                            <hr>
+                            <p class="lead">AQ Food, a wholly-owned subsidiary of AQ Capital, was founded in 2019 as a privately owned cattle company. It currently manages a 300 acre farm in Gua Musang; a district located in Kelantan, Malaysia.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row align-items-center content">  
+                        <div class="col-md-5 text-center blurb mb-5 mb-md-0" id="secondPar">
+                          <div class="row justify-content-center">
+                            <div class="col-10 col-lg-8">
+                              <h2>Quality Beef</h2>
+                              <hr>
+                              <p class="lead">Our farm is home to 5000 selected cattle from Thailand and Malaysia, producing Halal quality beef and dairy products along the way. </p>
+                  
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-5" id="secondPic">
+                            <img src="https://images.unsplash.com/photo-1448907503123-67254d59ca4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="">
+                        </div>
+                  
+                      </div>
+                     
+                        <div class="row align-items-center content">
+                          <div class="col-md-5 order-2 order-md-1" id="thirdPic">
+                            <img src="https://images.unsplash.com/photo-1484759288640-783b22c95d54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="">
+                          </div>
+                          <div class="col-md-5 text-center order-1 order-md-2 blurb mb-5 mb-md-0">
+                    
+                            <div class="row justify-content-center">
+                              <div class="col-10 col-lg-8" id="thirdPar">
+                                <h2>Our Machinery</h2>
+                                <hr>
+                                <p class="lead">Our company is commited in providing quality output across our vast land by ensuring our machinery are well-maintained.</p>
+                    
+                              </div>
+                            </div>
+                          </div>
+                  </section>
+          
+                  <nav class="navbar sticky-bottom navbar-light bg-faded py-0 container-fluid row m-auto px-0">
+                    <div class="footer" align="center">&copy; Copyright 2019 AQ Food Sdn Bhd. All rights reserved.</div>
+                  </nav>
+            
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/esm/popper-utils.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <script>
+    
+          $(function() {
+            $(document).scroll(function() {
+              var $nav = $('#mainNavbar');
+              $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+              
+            });
+          });
+          </script>
+</body>
+</html>
